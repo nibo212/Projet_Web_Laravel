@@ -1,0 +1,145 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*Header et footer*/
+
+header {
+    background-color:#5fa7f9;
+    color:white;
+}
+
+.imghead {
+    width: 120px;
+    border-radius: 100%;
+}
+
+.imghead logo{
+    float: left;
+    margin: auto;
+
+}
+
+dropdown-item{
+    color:black;
+   }
+   
+.imghead photo{
+    float: right;
+    margin: auto;
+}
+
+
+.clear {
+    clear:both
+}
+
+.topnav{
+    vertical-align: top;
+    text-align: center;
+}
+
+.topnav a {
+    margin: 7px;
+    display: block;
+    color: white;
+    font-size: 150%;
+
+}
+
+.topnav a:hover {
+    margin: 7px;
+    display: block;
+    background-color:#3b5998;
+    color: white;
+}
+
+li {
+    font-family:"Montserrat";
+    size: 40px;
+    vertical-align: middle;
+
+}
+
+.iconbot {
+    margin: 0px 10px 0px 0px;
+}
+
+
+.fb {
+    color: #3b5998;
+}
+
+.twttr{
+    color: skyblue;
+}
+
+.yt{
+    color: red;
+}
+
+.ig{
+    color: mediumvioletred;
+}
+
+footer {
+    background-color: #3E424C;
+    color: white;
+
+}
+
+.logocesi{
+    width:100%;
+}
+
+.pucefoot {
+    list-style-type: none;
+}
+
+.pucefoot a{
+    color: white;
+}
+
+.pucefoot a:hover {
+    color:#3E424C;
+    background-color: white;
+    display: block
+}
+
+.center{
+    min-height: 100px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.buttonbox {
+    height: 70px;
+    color: white;
+    background-color: #3E424C;
+    size : 50%;
+    text-align: center;
+    line-height:70px;
+    margin: 10px;
+    font-size: 1.2em;
+
+}
+
+.buttonbox a{
+     color: white;
+
+}
+
+.buttonbox:hover{
+    color: white;
+    background-color: #5fa7f9;
+}
+
+.buttonbox a:hover {
+    size : 50%;
+    text-align: center;
+    line-height:70px;
+    margin: 10px;
+    font-size: 1.2em;
+    color:white;
+}

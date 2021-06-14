@@ -1,0 +1,17 @@
+{
+    "name": "Trouve Ton Stage",
+    "short_name": "TTS@Cesi",
+    "description": "Trouve Ton Stage @ Cesi",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#5fa7f9",
+    "background_color": "#5fa7f9",
+    "icons": [
+        {
+            "src": "/manifest/paw.png",
+            "sizes": "612x612",
+            "type": "image/png"
+        }
+    ]
+}
